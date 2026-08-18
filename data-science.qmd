@@ -1,0 +1,37 @@
+---
+title: "Data Science and Stats"
+author: "Divya Shah"
+format: html
+editor: visual
+---
+
+## My View of Data Science
+
+To me, data science is about using data to find patterns, solve problems, and make better decisions. Data scientists and statisticians both analyze data, but data scientists often use more programming and machine learning tools. I see myself more as a data scientist, while still using statistics as an important foundation.
+
+Some important parts of data science are:
+
+- Data analysis
+- Programming
+- Statistics
+- Machine learning
+
+## Exploring an R Object
+
+
+
+```{r}
+y <- density(iris$Petal.Width)
+
+class(y)
+typeof(y)
+str(y)
+```
+
+The code above shows the class, type, and structure of the density object. Next, I plot the object to visualize the distribution of petal widths.
+
+```{r}
+#| echo: false
+
+plot(y)
+```

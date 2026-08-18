@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "data-science.html",
+    "href": "data-science.html",
+    "title": "Data Science and Stats",
+    "section": "",
+    "text": "To me, data science is about using data to find patterns, solve problems, and make better decisions. Data scientists and statisticians both analyze data, but data scientists often use more programming and machine learning tools. I see myself more as a data scientist, while still using statistics as an important foundation.\nSome important parts of data science are:\n\nData analysis\nProgramming\nStatistics\nMachine learning"
+  },
+  {
+    "objectID": "data-science.html#my-view-of-data-science",
+    "href": "data-science.html#my-view-of-data-science",
+    "title": "Data Science and Stats",
+    "section": "",
+    "text": "To me, data science is about using data to find patterns, solve problems, and make better decisions. Data scientists and statisticians both analyze data, but data scientists often use more programming and machine learning tools. I see myself more as a data scientist, while still using statistics as an important foundation.\nSome important parts of data science are:\n\nData analysis\nProgramming\nStatistics\nMachine learning"
+  },
+  {
+    "objectID": "data-science.html#exploring-an-r-object",
+    "href": "data-science.html#exploring-an-r-object",
+    "title": "Data Science and Stats",
+    "section": "Exploring an R Object",
+    "text": "Exploring an R Object\n\ny &lt;- density(iris$Petal.Width)\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nThe code above shows the class, type, and structure of the density object. Next, I plot the object to visualize the distribution of petal widths."
+  }
+]
